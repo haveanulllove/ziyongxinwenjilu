@@ -1,6 +1,6 @@
 # 全球金融与重大新闻报告
 报告编号：WORK-20261021-2250-BJT
-生成时间：2026-10-21 22:50（北京时间；非整点首份验证报告）
+期次标签：2026-10-21 22:50（北京时间；首份验证报告，实际邮件发送22:49:16）
 研究范围：过去两小时新增优先，另列当日市场背景。首次运行无上一期基线，不声称全部内容都是两小时新增。
 质量状态：部分数据缺失；新闻与报价分时采集，不能视为同一秒快照。本文只作信息研究，不含自动交易指令。
 
@@ -133,7 +133,3 @@ BTC/ETH的1h/2h涨跌、严格24h涨跌、ETF净流量、资金费率及清算�
 [S22] Reuters/MarketScreener，10月21日黄金：https://ae.marketscreener.com/news/gold-extends-losses-to-near-one-week-low-on-elevated-oil-prices-ce785cd8d088f324
 [S23] FRED官方日历：https://fred.stlouisfed.org/releases/calendar?rid=180&y=2026
 
-## 九、运行记录
-本文件先生成后发送；文件内不预先宣称邮件成功。实际Message ID和归档回读结果单独记录于执行日志。
-首份会话测试已成功：2026-10-21 22:45:15北京时间；Gmail ID 1a15eec6d8011619；回读含SENT、INBOX。
-模型要求：后续用户指定Luna；当前自动化接口无模型字段，尚未验证锁定。
