@@ -1,0 +1,85 @@
+{
+  "report_id": "GLOBAL-20261021-22",
+  "scheduled_slot_beijing": "2026-10-21T22:00:00+08:00",
+  "actual_start_beijing": "2026-10-21T22:51:31+08:00",
+  "actual_end_beijing": "2026-10-21T22:54:11+08:00",
+  "research_window_beijing": {
+    "intended": "2026-10-21T20:00:00+08:00/2026-10-21T22:00:00+08:00",
+    "actual_cutoff": "2026-10-21T22:52:55+08:00",
+    "first_run_baseline": true
+  },
+  "model": "model_unverified",
+  "dedup": {
+    "github_report_preexisting": false,
+    "github_log_preexisting": false,
+    "gmail_exact_subject_preexisting": false,
+    "checked_subject": "[全球市场2h报告] 2026-10-21 22:00",
+    "note": "Best-effort deduplication; no strict cross-concurrency exactly-once guarantee."
+  },
+  "sources": {
+    "primary": [
+      "Reuters",
+      "AP",
+      "WSJ",
+      "RTHK",
+      "21财经/新华财经"
+    ],
+    "market_data": [
+      "Search service finance quotes",
+      "GoldOilPrice"
+    ],
+    "missing_or_stale": [
+      "US 30Y Treasury same-time reliable quote missing",
+      "Copper quote stale at 19:23 Beijing",
+      "Exact current European index levels missing",
+      "US headline indices represented by liquid ETFs for same-time comparison"
+    ]
+  },
+  "attempts": [
+    {
+      "step": "github_archive_report",
+      "attempt": 1,
+      "status": "success",
+      "path": "reports/2026-10-21/22.md",
+      "commit_sha": "40d24faa45d2558de5f9adbb67e97f0cabbace70"
+    },
+    {
+      "step": "gmail_pre_send_dedup",
+      "attempt": 1,
+      "status": "success",
+      "matches": 0
+    },
+    {
+      "step": "gmail_send_email",
+      "attempt": 1,
+      "status": "success",
+      "gmail_message_id": "1a15ef4839e576db"
+    },
+    {
+      "step": "gmail_read_email_verify",
+      "attempt": 1,
+      "status": "success",
+      "to": "stephendamao@gmail.com",
+      "subject": "[全球市场2h报告] 2026-10-21 22:00",
+      "labels": [
+        "UNREAD",
+        "SENT",
+        "INBOX"
+      ]
+    }
+  ],
+  "archive": {
+    "report_path": "reports/2026-10-21/22.md",
+    "log_path": "logs/2026-10-21/22.json",
+    "repository": "haveanulllove/ziyongxinwenjilu"
+  },
+  "gmail": {
+    "message_id": "1a15ef4839e576db",
+    "to": "stephendamao@gmail.com",
+    "subject": "[全球市场2h报告] 2026-10-21 22:00",
+    "sent_verified": true,
+    "inbox_present": true
+  },
+  "status": "sent_verified",
+  "errors": []
+}
